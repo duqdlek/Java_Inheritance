@@ -3,7 +3,7 @@ int sum(int v1, int v2) {
 	return v1 + v2;
     }   
 
-int sum(int v1, int v2, int v3) {
+int sum (int v1, int v2, int v3) {
 	return this.sum(v1, v2) + v3; //this 는 자기자신
 }
 }
